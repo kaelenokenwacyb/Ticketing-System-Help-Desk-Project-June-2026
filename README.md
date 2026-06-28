@@ -57,6 +57,8 @@ Now that I was sure that this screen was working, I decided to access the Admin 
 
 <img width="1365" height="717" alt="image" src="https://github.com/user-attachments/assets/c3e9b44f-4de3-4932-9351-b5fa2bde5b2e" />
 
+## Admin Side Ticketing
+
 Now that both pages were working successfully, it was time to test out actually sending a ticket and testing to see if I could view it from the admin page. Back on the ticket submission page, I pressed "Open a New Ticket" and filled out the form with the credentials that I wanted to be used. I used many placeholder credentials, as I simply wanted to see whether or not this would work. Some of the fields involved in this process were of course email, phone number, help topic, subject, and message, allowing the end user to supply the admin with all information necessary for a solution to be found.
 
 <img width="1365" height="719" alt="image" src="https://github.com/user-attachments/assets/f07f1a5e-c656-4ab6-bfbe-0920c1c5ce5a" />
@@ -64,6 +66,14 @@ Now that both pages were working successfully, it was time to test out actually 
 <img width="1365" height="720" alt="image" src="https://github.com/user-attachments/assets/847601cf-7d79-4990-b251-fd6b49a4bc3d" />
 
 After submitting the ticket, I switched back over to the admin side and could successfully see the ticket that was previously submitted.
+
+<img width="1365" height="715" alt="image" src="https://github.com/user-attachments/assets/f788ec6e-9b20-41ff-9562-a1e4afcbb071" />
+
+Next up, I tested out actually responding to a ticket. I had many options, from choosing exactly who to respond to, typing out my response message, and being able to add a signature, add files, and also update the ticket status. For this practice example, I typed a simple response and posted the reply for the end user to see.
+
+<img width="1365" height="715" alt="image" src="https://github.com/user-attachments/assets/68f40f59-505b-449e-9e9b-bc1ab76316a1" />
+
+The step step of this process would now be creating and solving simulated ticket requests as a way to practice both being able to resolve tickets, and complete actual solutions through Active Directory.
 
 
 
