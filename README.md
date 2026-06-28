@@ -71,9 +71,67 @@ After submitting the ticket, I switched back over to the admin side and could su
 
 Next up, I tested out actually responding to a ticket. I had many options, from choosing exactly who to respond to, typing out my response message, and being able to add a signature, add files, and also update the ticket status. For this practice example, I typed a simple response and posted the reply for the end user to see.
 
+<img width="1360" height="719" alt="image" src="https://github.com/user-attachments/assets/3b0a0ac9-d461-4770-93e5-73f6a66cbff6" />
 <img width="1365" height="715" alt="image" src="https://github.com/user-attachments/assets/68f40f59-505b-449e-9e9b-bc1ab76316a1" />
 
 The step step of this process would now be creating and solving simulated ticket requests as a way to practice both being able to resolve tickets, and complete actual solutions through Active Directory.
+
+## Solving Simulated Tickets
+For this section of the lab, I wanted to be able to test out both receiving tickets, solving them through Active Directory, and submitting a response back to the end user. Based on this, I used 4 made up scenarios to help me practice and gain experience:
+- #1) User: Chris Redifield ; Issue: Account expired after expiration date passed, and user needs the date to be extended.
+- #2) User: Tim Manager ; Issue: Onboarding for a new Network Analyst required me to create a new account for them, along with the proper sercurity group and temporary password.
+- #3) User: Grace Ashcroft ; Issue: End user is unable to access their workstation as their account has been locked after too many incorrect password entries
+- #4) User: Automated SIEM Alert ; Issue: High volume of failed login attempts has been noticed and must be analyzed
+
+### Ticket #1: Account Expiration
+For this first ticket, the user experienced their account expiring because the date set for the expiration had passed, but they had their contract with the company extended by 6 months. 
+
+<img width="1365" height="717" alt="image" src="https://github.com/user-attachments/assets/9044519a-e915-4a76-89f1-224e8c414522" />
+
+To solve this, I used the User and Groups section of Active Directory / Server Manager to access the user's account.
+
+<img width="1025" height="852" alt="image" src="https://github.com/user-attachments/assets/1209634d-0db5-4b23-aed9-493bad891131" />
+
+Next up, I went to said user's properties, and to the account tab to view information on their account's expiration date. From here, I could see that their account was indeed set to expire (pretending that the date July 28th had passed based on this simulation). 
+
+<img width="1025" height="853" alt="image" src="https://github.com/user-attachments/assets/9c41494f-8a4b-4fb4-b8d2-9a59c192be2f" />
+
+To remedy this, I set the new expiration date to be 6 months later (based on the employee's extended company contract), and hit apply so that the changes could take place.
+
+<img width="1025" height="855" alt="image" src="https://github.com/user-attachments/assets/be74daa6-9f95-4de9-a3df-7be1aa56bcaf" />
+
+With that being completed, I submitted a response to the user now that the root problem had been fixed.
+
+<img width="1365" height="717" alt="image" src="https://github.com/user-attachments/assets/de9b8b8c-c189-4ff7-97ef-d8848dc3fa53" />
+
+### Ticket #2: New Employee Onboarding
+For the second ticket, a new Network Analyst was joining the company, and I had the responsibility of setting them up with a new account, along with the proper securtity group and temporary password set.
+
+<img width="1365" height="715" alt="image" src="https://github.com/user-attachments/assets/3f6dd358-f6ed-4c56-842d-656c53297889" />
+
+To solve this ticket, I had to use Active Directory's User and Groups tool to create a new user for the new employee. For this simulation, I placed this new user into the IT_Department Organizational Unit, and also created a new Organizational Unit within that one called 'Network_Analyst'. I then created a name and password that would be set to expire upon the next logon, forcing the new hire to create their own password to be used.
+
+<img width="1018" height="851" alt="image" src="https://github.com/user-attachments/assets/18ec1a07-b1dc-486b-9eba-3df3dd99a038" />
+<img width="1023" height="856" alt="image" src="https://github.com/user-attachments/assets/d4ad4d73-b23d-447a-8d50-f911dc27b9bc" />
+
+Next up, I navigated to the Organizatinal Unit I had created, and selected New > New Group. Here is where I created a new security group (Network_Analyst) based on the new hire's onboarding process and permissions that he should have within his account. 
+
+<img width="1018" height="853" alt="image" src="https://github.com/user-attachments/assets/c3d08069-9df8-41c5-b186-b2f256591861" />
+
+The final step was adding this new user to the security group, ensuring that his account was covered by the group.
+
+<img width="1021" height="852" alt="image" src="https://github.com/user-attachments/assets/1f4840cd-cf2b-412f-887f-1f97eb9380ed" />
+
+Finally, now that the requested ticket was completed, I sent a response back to the end user so that I could turn in the request.
+
+<img width="1365" height="711" alt="image" src="https://github.com/user-attachments/assets/b3ffd7fa-c606-46c4-867e-1c073cdd2156" />
+
+### Ticket #3: Locked Account
+
+
+
+
+
 
 
 
