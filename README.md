@@ -41,7 +41,7 @@ After verifying that Docker was installed, the next step was to create my ostick
 
 With my osticket-lab folder made and showing on my desktop, the next step was to create my .env file (environment file). By running this script within PowerShell, the .env file was made, allowing for credentials to be stored for osTicket, and for these credentials to be entered into my containers through Docker so that osTicket could successfully access the MySQL database.
 
-<img width="850" height="600" alt="image" src="https://github.com/user-attachments/assets/6f48d4c0-1462-424d-93ac-7e2020944f7c" />
+<img width="550" height="400" alt="image" src="https://github.com/user-attachments/assets/6f48d4c0-1462-424d-93ac-7e2020944f7c" />
 
 Finally, having completed the setup for my onticket-lab folder and my .env file, I was ready to create the final file needed, which was the docker-compose.yml file. This file acts as a type of blueprint for the entire architecture of my lab. It makes external acces rules for port mapping, creates dependencies for start up orders within the lab, and also gives Docker notice to create a dedicated storage space on my computer's hard drive so that my tickets and settings can be saved locally rather than disappearing once the lab is turned off. Once I entered the script for this file, the necessary containers were ready to go and I was prepared to begin using Docker.
 
