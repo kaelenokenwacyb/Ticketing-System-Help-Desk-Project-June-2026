@@ -57,6 +57,13 @@ Now that I was sure that this screen was working, I decided to access the Admin 
 
 <img width="1365" height="717" alt="image" src="https://github.com/user-attachments/assets/c3e9b44f-4de3-4932-9351-b5fa2bde5b2e" />
 
+I could view tickets through various means, such as specifically viewing tickets that have been opened, or tickets that have been answered or are overdue. From this screen, I could also search for specific tickets, sort closed tickets based on the date they were closed, and many more useful features.
+
+Extra: On this page, I could also see other features that most IT Support or Help Desk workers would deal with daily, such as being able to assign tickets to others and transfer tickets. These features are just as important as all other things covered in this lab, allowing the admin to be able to manage tickets with even more ease.
+
+<img width="1365" height="711" alt="image" src="https://github.com/user-attachments/assets/b9fc71de-76ed-49b2-b3b5-d2750d2ef0bb" />
+<img width="1365" height="713" alt="image" src="https://github.com/user-attachments/assets/f8c1ba88-b1da-4a06-b5d7-7baf07c11bc6" />
+
 ## Admin Side Ticketing
 
 Now that both pages were working successfully, it was time to test out actually sending a ticket and testing to see if I could view it from the admin page. Back on the ticket submission page, I pressed "Open a New Ticket" and filled out the form with the credentials that I wanted to be used. I used many placeholder credentials, as I simply wanted to see whether or not this would work. Some of the fields involved in this process were of course email, phone number, help topic, subject, and message, allowing the end user to supply the admin with all information necessary for a solution to be found.
