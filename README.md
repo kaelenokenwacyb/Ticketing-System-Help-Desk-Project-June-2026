@@ -46,7 +46,7 @@ With my osticket-lab folder made and showing on my desktop, the next step was to
 Finally, having completed the setup for my onticket-lab folder and my .env file, I was ready to create the final file needed, which was the docker-compose.yml file. This file acts as a type of blueprint for the entire architecture of my lab. It makes external acces rules for port mapping, creates dependencies for start up orders within the lab, and also gives Docker notice to create a dedicated storage space on my computer's hard drive so that my tickets and settings can be saved locally rather than disappearing once the lab is turned off. Once I entered the script for this file, the necessary containers were ready to go and I was prepared to begin using Docker.
 
 <img width="850" height="600" alt="image" src="https://github.com/user-attachments/assets/b9411df4-9d08-40a0-82ed-a08e3cd5f485" />
-<img width="1000" height="200" alt="image" src="https://github.com/user-attachments/assets/a9be3477-16b3-4174-97fb-926a4952e88d" />
+<img width="1000" height="100" alt="image" src="https://github.com/user-attachments/assets/a9be3477-16b3-4174-97fb-926a4952e88d" />
 
 ## Accessing osTickets
 Now that my containers were ready to go, I was now able to start using osTicket with the help of Docker. On my internet browser, I typed in http://localhost:8080 to access osTicket, bringing me to the Support Center homepage. From here, I was shown various options, from being able to open a new ticket, to checking ticket status, and more. This is the screen that employees typically see when they wish to make a new request based on the problems they're facing within their environment.
