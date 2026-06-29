@@ -84,7 +84,7 @@ Next up, I tested out actually responding to a ticket. I had many options, from 
 The step step of this process would now be creating and solving simulated ticket requests as a way to practice both being able to resolve tickets, and complete actual solutions through Active Directory.
 
 ## Solving Simulated Tickets
-For this section of the lab, I wanted to be able to test out both receiving tickets, solving them through Active Directory, and submitting a response back to the end user. Based on this, I used 4 made up scenarios to help me practice and gain experience:
+For this section of the lab, I wanted to be able to test out both receiving tickets, solving them through Active Directory, and submitting a response back to the end user. Based on this, I used Google Gemini to create 4 scenarios to help me practice and gain experience:
 - #1) User: Chris Redifield ; Issue: Account expired after expiration date passed, and user needs the date to be extended.
 - #2) User: Tim Manager ; Issue: Onboarding for a new Network Analyst required me to create a new account for them, along with the proper sercurity group and temporary password.
 - #3) User: Grace Ashcroft ; Issue: End user is unable to access their workstation as their account has been locked after too many incorrect password entries
